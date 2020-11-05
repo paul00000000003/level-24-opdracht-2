@@ -1,0 +1,22 @@
+li {
+    width: 200px;
+    height: 1.5em;
+    margin: 20px;
+    list-style-type: none;
+}
+
+#toonResultaat {
+    width: 600px;
+    height: 600px;
+}
+
+#lijst {
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+    grid-template-rows: repeat(5, 2em);
+    font-size: 40px;
+}
+
+button {
+    font-size: 25px;
+}
